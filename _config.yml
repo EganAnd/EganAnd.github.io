@@ -1,3 +1,10 @@
-name: My Site
-theme: minimal
+# Site settings
+title: Egan Anderson's Data Amalytics Professional Page
+author:
+  name: Egan Anderson
+  email: your-email@domain.com
+description: "Professional site for Egan Anderson's data analytics and machine learning work."
+
+# Build settings
+remote_theme: jekyll/minima
 
