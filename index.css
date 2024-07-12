@@ -42,6 +42,25 @@ section {
     margin-bottom: 2rem;
 }
 
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
 .project {
     background-color: #111;
     padding: 1rem;
