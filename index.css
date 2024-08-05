@@ -56,18 +56,25 @@ section {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .about-text {
     flex: 2;
+    min-width: 300px;
 }
 
 .about-image {
     flex: 1;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .about-image img {
     max-width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
@@ -117,4 +124,24 @@ footer {
     background-color: #fff;
     color: black;
     border-top: 1px solid #ccc;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-header-line {
+        margin: 0 5%;
+    }
+
+    main {
+        padding: 2rem 5%;
+    }
+
+    footer {
+        padding: 1rem 5%;
+    }
 }
