@@ -114,4 +114,7 @@ button:hover {
 footer {
     text-align: left;
     padding: 1rem 10%;
-    background
+    background-color: #fff;
+    color: black;
+    border-top: 1px solid #ccc;
+}
