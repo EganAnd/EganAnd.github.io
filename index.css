@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -36,11 +36,16 @@ nav a {
 }
 
 main {
-    padding: 2rem;
+    padding: 2rem 10%;
 }
 
 section {
     margin-bottom: 2rem;
+}
+
+.horizontal-line {
+    border-top: 2px solid navy;
+    margin: 1rem 0;
 }
 
 .about-section {
